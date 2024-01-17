@@ -1,0 +1,88 @@
+.nav-bar {
+  justify-content: space-between;
+
+  padding: 10px 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* navleft  */
+.nav-left > :first-child {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.nav-left > :last-child {
+  width: 130px;
+}
+
+/* nav center  */
+.nav-center .searchBox {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-center .searchBox > input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+
+.nav-center > img,
+.searchBox > img {
+  width: 15px;
+}
+
+/* nav right  */
+.nav-right img {
+  width: 25px;
+  margin-right: 25px;
+}
+
+.nav-right .userIcon {
+  width: 35px;
+  border-radius: 50px;
+  margin-right: 0;
+}
+
+.signinBtn {
+  border: 1px solid #8d8989;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+
+@media (max-width: 900px) {
+  .nav-bar {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .nav-bar .logo {
+    width: 90px;
+  }
+  .nav-center .searchBox input {
+    width: 100px;
+  }
+  .nav-center img {
+    display: none;
+  }
+  .nav-right .userIcon {
+    display: block;
+    width: 30px;
+  }
+  .nav-right img {
+    display: none;
+  }
+
+  .signinBtn {
+    font-size: 12px;
+    border: none;
+    padding: 0;
+  }
+}

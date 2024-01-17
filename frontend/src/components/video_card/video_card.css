@@ -1,0 +1,28 @@
+.video img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.video .flex {
+  align-items: start;
+  margin-top: 7px;
+}
+
+.video .flex img {
+  width: 35px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.video-info {
+  color: #5a5a5a;
+  font-style: 13px;
+  flex-direction: column;
+  gap: 5px;
+}
+.video-info h3 {
+  color: #000;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px;
+}

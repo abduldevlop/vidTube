@@ -1,0 +1,42 @@
+.oldUserComment {
+  display: flex;
+  margin: 20px 0;
+}
+.oldUserComment img {
+  display: block;
+  width: 35px;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.oldUserComment .userInfoComment {
+  display: flex;
+  align-items: center;
+}
+
+.oldUserComment .userInfoComment span {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-left: 10px;
+}
+.oldUserComment .commentActions {
+  display: flex;
+  align-items: center;
+}
+.oldUserComment .commentActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.oldUserComment .commentActions img {
+  width: 20px;
+  border-radius: 0;
+  margin-right: 5px;
+}
+
+.oldUserComment .commentActions span {
+  margin-top: 5px;
+}

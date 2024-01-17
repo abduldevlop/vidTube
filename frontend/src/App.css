@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

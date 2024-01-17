@@ -1,0 +1,53 @@
+.sidebar {
+  background-color: white;
+  width: 15%;
+  height: 100vh;
+
+  position: fixed;
+  overflow: scroll;
+
+  top: 0;
+  padding-left: 1%;
+  padding-top: 80px;
+}
+
+.shorcutLinks a img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.shorcutLinks a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+  font-weight: 400;
+}
+
+.shorcutLinks .active {
+  color: #ed3833;
+}
+
+hr {
+  margin-right: 50px;
+}
+
+.subcribedChanels h3 {
+  font-size: 13px;
+  margin: 20px 0;
+  color: #5a5a5a;
+}
+.subcribedChanels a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.subcribedChanels a img {
+  width: 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+}

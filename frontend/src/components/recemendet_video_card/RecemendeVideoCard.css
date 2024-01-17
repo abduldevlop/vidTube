@@ -1,0 +1,9 @@
+.sideVideoList {
+  display: flex;
+  margin-bottom: 8px;
+}
+.sideVideoList img {
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 5px;
+}

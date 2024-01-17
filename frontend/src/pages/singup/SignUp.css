@@ -1,0 +1,83 @@
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.container-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 2px 5px 1px rgba(196, 196, 196, 1);
+
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.container-auth h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container-auth p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #5a5a5a;
+  margin-top: 10px;
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+  border: 1px solid rgb(243, 240, 240);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.google img {
+  width: 25px;
+}
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputs label {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.inputs input {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+.inputs button {
+  padding: 10px;
+  color: white;
+  background-color: #ed3833;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputs p {
+  font-size: 12px;
+  color: #5a5a5a;
+}
+.inputs p a {
+  color: #103fec;
+  font-weight: 500;
+}
